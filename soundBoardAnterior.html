@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soundboard</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="cabecalho_menu">
+            <div class="cabecalho_menu_cima">
+                <h1>Sound Board</h1>
+                <h2>Limbus Company</h2>
+            </div>
+            <div class="cabecalho_menu_baixo">
+                <a class="cabecalho_menu_link" href="soundBoardPosterior.html">
+                    <img src="assets/arrow_back.png" alt="arrow_back.png">
+                    Página Anterior
+                </a>
+                <a class="cabecalho_menu_link" href="index.html">
+                    Página Posterior
+                    <img src="assets/arrow_forward.png" alt="arrow_forward.png">
+                </a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="cards">
+            <div class="card_imagens">
+                <button class="botao" data-audio="donQuixote" data-imagem-normal="assets/DonQuixote1.jpg" data-imagem-ativa="assets/DonQuixote2.jpg"><img src="assets/DonQuixote1.jpg" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="dante" data-imagem-normal="assets/Dante1.webp" data-imagem-ativa="assets/Dante2.jpg"><img src="assets/Dante1.webp" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="faust" data-imagem-normal="assets/Faust1.jpg" data-imagem-ativa="assets/Faust2.webp"><img src="assets/Faust1.jpg" alt=""></button>
+            </div>
+
+            <div class="card_imagens">
+                <button class="botao" data-audio="heathcliff" data-imagem-normal="assets/Heathcliff1.jpg" data-imagem-ativa="assets/Heathcliff2.jpg"><img src="assets/Heathcliff1.jpg" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="rodion" data-imagem-normal="assets/Rodion1.jpg" data-imagem-ativa="assets/Rodion2.jpg"><img src="assets/Rodion1.jpg" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="gregor" data-imagem-normal="assets/Gregor1.jpg" data-imagem-ativa="assets/Gregor2.jpg"><img src="assets/Gregor1.jpg" alt=""></button>
+            </div>
+        </section>
+        <audio src="sounds/dante-gong.mp3" id="dante"></audio>
+        <audio src="sounds/don-quixote-limbussy.mp3" id="donQuixote"></audio>
+        <audio src="sounds/esquire.mp3" id="faust"></audio>
+        <audio src="sounds/rodion-liu-assoc.mp3" id="rodion"></audio>
+        <audio src="sounds/heathcliff-laugh.mp3" id="heathcliff"></audio>
+        <audio src="sounds/limbus-company-gregor.mp3" id="gregor"></audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

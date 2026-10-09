@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soundboard</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="cabecalho_menu">
+            <div class="cabecalho_menu_cima">
+                <h1>Sound Board</h1>
+                <h2>Persona</h2>
+            </div>
+            <div class="cabecalho_menu_baixo">
+                <a class="cabecalho_menu_link" href="index.html">
+                    <img src="assets/arrow_back.png" alt="arrow_back.png">
+                    Página Anterior
+                </a>
+                <a class="cabecalho_menu_link" href="soundBoardAnterior.html">
+                    Página Posterior
+                    <img src="assets/arrow_forward.png" alt="arrow_forward.png">
+                </a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="cards">
+            <div class="card_imagens">
+                <button class="botao" data-audio="Makoto" data-imagem-normal="assets/MakotoYuki.jpg" data-imagem-ativa="assets/makotoYuki2.jpg"><img src="assets/MakotoYuki.jpg" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="Specialist" data-imagem-normal="assets/Yu1.jpg" data-imagem-ativa="assets/Yu2.jpg"><img src="assets/Yu1.jpg" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="Ren" data-imagem-normal="assets/Ren1.jpg" data-imagem-ativa="assets/Ren2.jpg"><img src="assets/Ren1.jpg" alt=""></button>
+            </div>
+            
+            <div class="card_imagens">
+                <button class="botao" data-audio="Mitsuru" data-imagem-normal="assets/MitsuruKirijo1.jpg" data-imagem-ativa="assets/MitsuruKirijo2.jpg"><img src="assets/MitsuruKirijo1.jpg" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="Teddie" data-imagem-normal="assets/Teddie.jpg" data-imagem-ativa="assets/Teddie2.jpg"><img src="assets/Teddie.jpg" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="Morgana" data-imagem-normal="assets/Morgana2.jpg" data-imagem-ativa="assets/Morgana3.jpg"><img src="assets/Morgana2.jpg" alt=""></button>
+            </div>
+        </section>
+        <audio src="sounds/16-ren-16-011-it-s-showtime.mp3" id="Ren"></audio>
+        <audio src="sounds/its-almost-scary-how-good-i-am.mp3" id="Morgana"></audio>
+        <audio src="sounds/makoto-yuki-be-boss-0744-4-persoona.mp3" id="Makoto"></audio>
+        <audio src="sounds/mitsuru-kirijo-jap-battle-vbtl-pmi-0-1-pmi000.mp3" id="Mitsuru"></audio>
+        <audio src="sounds/specialist-online-audio-converter.mp3" id="Specialist"></audio>
+        <audio src="sounds/teddie-human-00001775-convert-persona-4-dancing-all-night.mp3" id="Teddie"></audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

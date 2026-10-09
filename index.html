@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soundboard</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="cabecalho_menu">
+            <div class="cabecalho_menu_cima">
+                <h1>Sound Board</h1>
+                <h2>Ultrakill e Hollow Knight</h2>
+            </div>
+            <div class="cabecalho_menu_baixo">
+                <a class="cabecalho_menu_link" href="soundBoardAnterior.html">
+                    <img src="assets/arrow_back.png" alt="arrow_back.png">
+                    Página Anterior
+                </a>
+                <a class="cabecalho_menu_link" href="soundBoardPosterior.html">
+                    Página Posterior
+                    <img src="assets/arrow_forward.png" alt="arrow_forward.png">
+                </a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="cards">
+            <div class="card_imagens">
+                <button class="botao" data-audio="weakMinos" data-imagem-normal="assets/MinosPrime.jpg" data-imagem-ativa="assets/Order.jpg"><img src="assets/MinosPrime.jpg" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="beholdGabriel" data-imagem-normal="assets/Gabriel.jpg" data-imagem-ativa="assets/TheDeathOfGodWill.jpg"><img src="assets/Gabriel.jpg" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="yesThatIsSisyphus" data-imagem-normal="assets/SisyphusPrime.jpg" data-imagem-ativa="assets/War.jpg"><img src="assets/SisyphusPrime.jpg" alt=""></button>
+            </div>
+
+            <div class="card_imagens">
+                <button class="botao" data-audio="guarana" data-imagem-normal="assets/Hornet.png" data-imagem-ativa="assets/HornetPlush.jpg"><img src="assets/Hornet.png" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="sherma" data-imagem-normal="assets/Sherma.png" data-imagem-ativa="assets/ShermaPlush.webp"><img src="assets/Sherma.png" alt=""></button>
+            </div>
+            <div class="card_imagens">
+                <button class="botao" data-audio="lace" data-imagem-normal="assets/Lace.png" data-imagem-ativa="assets/LacePlush.jpg"><img src="assets/Lace.png" alt=""></button>
+            </div>
+        </section>
+        <audio src="sounds/Gab_Behold.ogg" id="beholdGabriel"></audio>
+        <audio src="sounds/Mp_weak.ogg" id="weakMinos"></audio>
+        <audio src="sounds/Sp_yesthatsit.wav" id="yesThatIsSisyphus"></audio>
+        <audio src="sounds/honet-guarana.mp3" id="guarana"></audio>
+        <audio src="sounds/sherma-song.mp3" id="sherma"></audio>
+        <audio src="sounds/lace-attack.mp3" id="lace"></audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
